@@ -16,7 +16,7 @@ class Solution:
         q = head
         for i in range(n):
             head = head.next
-        if head == None:         # 如果第一个指针提前走了n步到达末尾
+        if head == None:         # 如第一个指针提前走了n步到达末尾
             return p.next
         
         while head.next != None:
