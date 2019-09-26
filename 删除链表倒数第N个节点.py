@@ -25,8 +25,5 @@ class Solution:
         temp = p.next
         p.next = temp.next
         del temp
-       
-            
-        
         return q     #www.baidu.com
     ##hello world!we rng
